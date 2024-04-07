@@ -1,1 +1,1 @@
-import './src/js/controller'
+import './public/src/js/controller'
