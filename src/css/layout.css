@@ -1,0 +1,9 @@
+#app{
+    display: grid;
+    position:relative;
+    height:100vh;
+    grid-template-rows: min-content minmax(min-content,50vh) 1fr;
+    padding:2rem 5rem;
+    gap:2rem;
+    grid-template-columns: repeat(10,1fr);
+}

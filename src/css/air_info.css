@@ -1,0 +1,33 @@
+.air__info{
+    grid-column: 1/5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:3rem;
+    padding:4rem;
+    background: var(--secondary--dark);
+    border-radius: 2rem;
+    justify-content: center;
+    align-content: center;
+}
+.air__info .heading{
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    align-self: flex-start;
+}
+.air__info-item{
+    display: grid;
+    grid-template-columns: .25fr 1fr;
+    grid-template-rows: repeat(2,1fr);
+    gap: 2rem;
+}
+.air__info-item .icon{
+    font-size: 2rem;
+    text-align: center;
+}
+.air__info-item .value{
+    grid-column: 2/3;
+    font-size: 2.5rem;
+}
+.air__info .desc{
+    font-size: 2rem;
+}

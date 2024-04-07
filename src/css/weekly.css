@@ -1,0 +1,36 @@
+.w_forecast{
+    grid-column: 5/-1;
+    padding:4rem;
+    border-radius: 2rem;
+    background-color: var(--secondary--dark);
+}
+.w_forecast .heading{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.w_forecast--container{
+    display: flex;
+    flex-direction: column;
+    gap:.8rem;
+}
+.w_forecast--box{
+    width:100%;
+    display: flex;
+    border:1px solid var(--primary--dark);
+    border-radius: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem 0 ;
+}
+
+.w_forecast--box .icon img{
+    width: 8rem;
+    height: 8rem;
+}
+.w_forecast--box p{
+    font-size: 1.8rem;
+}
+.w_forecast--box.active{
+    background-color: var(--secondary--dark);
+}

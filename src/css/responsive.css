@@ -1,0 +1,30 @@
+@media only screen and (max-width: 950px) {
+
+.hamburger{
+        display: flex;
+    }
+    .navbar__search,.navbar__btns,.navbar__cred{
+        display: none;
+    }
+    .navbar{
+        justify-content: flex-start;
+    }
+    .navbar__greeting{
+        text-align: center;
+        width:100%;
+    }
+    html{
+        font-size: 50%;
+    }
+
+    .current__weather-img img{
+        width:15rem;
+        height:15rem;
+    }
+    .current__weather-info h1{
+        font-size: 5rem;
+    }
+    .current__weather-info h3{
+        font-size: 3rem;
+    }
+}

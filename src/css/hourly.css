@@ -1,0 +1,11 @@
+.h_forecast{
+    grid-column: 5 / -1;
+    grid-row: 2/3;
+    padding:4rem;
+    border: 1px solid var(--primary--dark);
+    border-radius: 2rem;
+    position:relative;
+}
+.h_forecast .heading{
+    margin-bottom: 2rem;
+}
