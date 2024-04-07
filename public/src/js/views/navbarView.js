@@ -43,7 +43,6 @@ class NavbarView{
                 this.data.celsius = true;
                 this.chartData.isCelsius = true;
             }
-            console.log(this.data.isClicked);
             handler();
 
 

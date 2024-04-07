@@ -45,6 +45,7 @@ export const getCurrentWeather = async function(query){
         humidity: current.humidity,
         visibility: current.vis_km,
         icon: current.condition.icon.slice(-7),
+        celsius: true,
         
     }
 
